@@ -1,4 +1,4 @@
-" Let's use new vim features
+" Enable new vim features since vi
 set nocompatible
 
 " Set line numbers and relative numbers
@@ -16,8 +16,28 @@ set showmode
 set autoread
 set hidden
 
-" UI
+" UI improvements
 set laststatus=2
 set ruler
 set wildmenu
 set visualbell
+colorscheme murphy
+
+" Editing
+set autoindent
+
+" Smart auto indentation
+filetype plugin indent on
+
+" Highlight while the search is being input
+set incsearch
+set hlsearch
+
+" Number of spaces to interpret a tab character
+set tabstop=4
+
+" Width of manual indentation
+set shiftwidth=4
+
+" Expand the new tab insertions to spaces
+set expandtab
