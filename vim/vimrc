@@ -1,3 +1,23 @@
+" Let's use new vim features
+set nocompatible
+
 " Set line numbers and relative numbers
 set number
 set relativenumber
+
+" Enable cursor line for better visibility
+set cursorline
+
+" Allow backspacing over indentation, line breaks, insertion
+set backspace=indent,eol,start
+
+set showcmd
+set showmode
+set autoread
+set hidden
+
+" UI
+set laststatus=2
+set ruler
+set wildmenu
+set visualbell
