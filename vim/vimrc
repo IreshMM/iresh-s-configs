@@ -22,6 +22,7 @@ set ruler
 set wildmenu
 set visualbell
 colorscheme murphy
+set nowrap
 
 " Editing
 set autoindent
