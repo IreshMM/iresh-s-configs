@@ -42,3 +42,6 @@ set shiftwidth=4
 
 " Expand the new tab insertions to spaces
 set expandtab
+
+" Syntax coloring
+syntax on
