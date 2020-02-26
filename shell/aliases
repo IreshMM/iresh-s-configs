@@ -1,0 +1,13 @@
+# Part of the zsh configuration
+# Iresh Madhusanka Dissanayaka
+
+
+# Shortcut for entering my playground directory
+alias pl="~/Documents/Playground/"
+
+alias vbox="VBoxManage"
+alias vpnd="sudo openconnect 222.165.139.180 < ~/Documents/Notes/sampath.vpn.credentials/DulanjaliK"
+alias vpni="sudo openconnect 222.165.139.180 < ~/Documents/Notes/sampath.vpn.credentials/Isuri"
+alias vpns="sudo openconnect 222.165.139.180 < ~/Documents/Notes/sampath.vpn.credentials/SamithaU"
+alias vpnt="sudo openconnect 222.165.139.180 < ~/Documents/Notes/sampath.vpn.credentials/Tharanga"
+
