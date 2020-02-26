@@ -45,3 +45,7 @@ set expandtab
 
 " Syntax coloring
 syntax on
+
+" Smart search
+set ignorecase
+set smartcase
