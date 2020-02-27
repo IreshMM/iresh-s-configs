@@ -39,10 +39,10 @@
 *.color15: #fdf6e3
 
 !! URxvt Appearance
-*.font: xft:Iosevka:style=Regular:size=14
-*.boldFont: xft:Iosevka:style=Bold:size=14
-*.italicFont: xft:Iosevka:style=Italic:size=14
-*.boldItalicFont: xft:Iosevka:style=Bold Italic:size=14
+URxvt.font: xft:Iosevka:style=Regular:size=14
+URxvt.boldFont: xft:Iosevka:style=Bold:size=14
+URxvt.italicFont: xft:Iosevka:style=Italic:size=14
+URxvt.boldItalicFont: xft:Iosevka:style=Bold Italic:size=14
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
@@ -65,7 +65,7 @@ URxvt.keysym.Control-Right: \033[1;5C
 URxvt.keysym.Control-Left: \033[1;5D
 
 !! Copy Paste & Other Extensions
-URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select,resize-font
 URxvt.copyCommand: xclip -i -selection clipboard
 URxvt.pasteCommand: xclip -o -selection clipboard
 URxvt.keysym.M-c: perl:clipboard:copy
@@ -79,3 +79,7 @@ URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.urlLauncher: firefox
 URxvt.underlineURLs: true
 URxvt.urlButton: 1
+
+!! Key bindings for resizing font
+URxvt.keysym.C-j: resize-font:smaller
+URxvt.keysym.C-k: resize-font:bigger
