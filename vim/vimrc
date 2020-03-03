@@ -20,7 +20,6 @@ set hidden
 set laststatus=2
 set ruler
 set wildmenu
-set visualbell
 "colorscheme murphy
 set nowrap
 
@@ -49,3 +48,6 @@ syntax on
 " Smart search
 set ignorecase
 set smartcase
+
+" Set customized statusline
+source /home/iresh/iresh-s-configs/vim/statusline

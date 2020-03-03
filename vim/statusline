@@ -1,0 +1,3 @@
+" vim: set ft=vim:
+
+set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)
