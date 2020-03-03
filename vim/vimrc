@@ -21,7 +21,7 @@ set laststatus=2
 set ruler
 set wildmenu
 set visualbell
-colorscheme murphy
+"colorscheme murphy
 set nowrap
 
 " Editing
