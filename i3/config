@@ -183,3 +183,7 @@ bar {
 # Disable window title
 for_window [class="^.*"] border pixel 1
 new_window 1pixel
+
+
+# Application keybindings
+bindsym $mod+F2 exec chromium
