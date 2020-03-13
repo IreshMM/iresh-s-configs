@@ -1,9 +1,9 @@
-# Part of the zsh configuration
-# Iresh Madhusanka Dissanayaka
+# vim: ft=bash
 
-
-# Shortcut for entering my playground directory
-alias pl="~/Documents/Playground/"
+# Shortcuts to frequently used directories
+alias pl="cd ~/Documents/Playground/"
+alias lc="cd /usr/LocalDisk/"
+alias pl="cd /usr/LocalDisk/Playground/"
 
 alias vbox="VBoxManage"
 

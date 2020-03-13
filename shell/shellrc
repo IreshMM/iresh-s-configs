@@ -1,2 +1,7 @@
+# vim: ft=bash
+
 # set vi mode for easier editing
 set -o vi
+
+# source aliases
+source /home/iresh/iresh-s-configs/shell/aliases
