@@ -51,3 +51,6 @@ set smartcase
 
 " Set customized statusline
 source /home/iresh/iresh-s-configs/vim/statusline
+
+" Set custom mappings
+source /home/iresh/iresh-s-configs/vim/mappings
