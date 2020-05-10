@@ -1,3 +1,5 @@
 " vim: set ft=vim:
 
 imap jj <Esc>
+
+nmap <Space>l :set nohls<CR>

@@ -5,3 +5,6 @@ set -o vi
 
 # source aliases
 source /home/iresh/iresh-s-configs/shell/aliases
+
+# PATH variable
+PATH=$PATH:$USER/.bin

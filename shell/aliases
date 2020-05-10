@@ -4,6 +4,10 @@
 alias pl="cd ~/Documents/Playground/"
 alias lc="cd /usr/LocalDisk/"
 alias pl="cd /usr/LocalDisk/Playground/"
+alias st="cd ~/Documents/suckless-utils/st/"
+alias dwm="cd ~/Documents/suckless-utils/dwm"
+
+alias t=tree
 
 alias vbox="VBoxManage"
 
