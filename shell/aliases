@@ -1,9 +1,8 @@
 # vim: ft=bash
 
 # Shortcuts to frequently used directories
-alias pl="cd ~/Documents/Playground/"
+alias pl="cd ~/Documents/playground/"
 alias lc="cd /usr/LocalDisk/"
-alias pl="cd /usr/LocalDisk/Playground/"
 alias st="cd ~/Documents/suckless-utils/st/"
 alias dwm="cd ~/Documents/suckless-utils/dwm"
 
