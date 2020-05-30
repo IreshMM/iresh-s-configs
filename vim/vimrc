@@ -11,7 +11,9 @@ set cursorline
 " Allow backspacing over indentation, line breaks, insertion
 set backspace=indent,eol,start
 
+" Show normal mode commands while being typed
 set showcmd
+
 set showmode
 set autoread
 set hidden
