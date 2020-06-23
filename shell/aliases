@@ -9,5 +9,3 @@ alias dwm="cd ~/Documents/suckless-utils/dwm"
 alias t=tree
 
 alias vbox="VBoxManage"
-
-source ~/Documents/Notes/sampath.vpn.credentials/aliases.list
