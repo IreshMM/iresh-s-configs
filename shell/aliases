@@ -6,6 +6,8 @@ alias lc="cd /usr/LocalDisk/"
 alias st="cd ~/Documents/suckless-utils/st/"
 alias dwm="cd ~/Documents/suckless-utils/dwm"
 alias cfg="cd ~/iresh-s-configs/"
+alias nt="cd ~/Documents/Notes/"
+alias dl="cd ~/Downloads"
 
 alias t=tree
 
