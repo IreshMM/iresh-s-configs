@@ -27,6 +27,7 @@ set nowrap
 
 " Editing
 set autoindent
+set softtabstop=4
 
 " Smart auto indentation
 filetype plugin indent on
