@@ -2,4 +2,9 @@
 
 imap jj <Esc>
 
+" Remove search highlighting
 nmap <Space>l :set nohls<CR>
+
+" Copy and paste from system clipboard
+nmap gy "+y
+nmap gp "+p

@@ -52,8 +52,6 @@ syntax on
 set ignorecase
 set smartcase
 
-" Use system clipboard
-set clipboard=unnamedplus
 " Set customized statusline
 source /home/iresh/iresh-s-configs/vim/statusline
 
