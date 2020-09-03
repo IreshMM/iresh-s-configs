@@ -7,4 +7,6 @@ nmap <Space>l :set nohls<CR>
 
 " Copy and paste from system clipboard
 nmap gy "+y
+vmap gy "+y
 nmap gp "+p
+vmap gp "+p
