@@ -1,13 +1,12 @@
 # vim: ft=bash
 
+# Path to the working tree of this repository
+export CONFIG_REPO_PATH=$HOME/iresh-s-configs
+
+# Source child rc files
+for rc_file in $CONFIG_REPO_PATH/shell/{variables,functions.sh,aliases}; do
+    source $rc_file
+done
+
 # set vi mode for easier editing
 set -o vi
-
-# source aliases
-source /home/iresh/iresh-s-configs/shell/aliases
-
-# source functions
-source /home/iresh/iresh-s-configs/shell/functions.sh
-
-# PATH variable
-PATH=$PATH:$HOME/.bin:$HOME/.local/bin

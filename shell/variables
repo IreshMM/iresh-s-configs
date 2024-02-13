@@ -1,0 +1,2 @@
+# PATH variable
+PATH=$PATH:$HOME/.bin:$HOME/.local/bin

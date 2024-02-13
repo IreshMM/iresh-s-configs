@@ -53,7 +53,7 @@ set ignorecase
 set smartcase
 
 " Set customized statusline
-source /home/iresh/iresh-s-configs/vim/statusline
+source $CONFIG_REPO_PATH/vim/statusline
 
 " Set custom mappings
-source /home/iresh/iresh-s-configs/vim/mappings
+source $CONFIG_REPO_PATH/vim/mappings
