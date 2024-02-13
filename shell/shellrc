@@ -10,4 +10,4 @@ source /home/iresh/iresh-s-configs/shell/aliases
 source /home/iresh/iresh-s-configs/shell/functions.sh
 
 # PATH variable
-PATH=$PATH:$HOME/.bin
+PATH=$PATH:$HOME/.bin:$HOME/.local/bin
