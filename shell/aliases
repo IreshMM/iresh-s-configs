@@ -8,6 +8,7 @@ alias dwm="cd ~/Documents/suckless-utils/dwm"
 alias cfg="cd ~/iresh-s-configs/"
 alias nt="cd ~/Documents/Notes/"
 alias dl="cd ~/Downloads"
+alias gpd="gitpagediff"
 
 alias t=tree
 
