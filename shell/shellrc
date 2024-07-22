@@ -8,5 +8,6 @@ for rc_file in $CONFIG_REPO_PATH/shell/{variables,functions.sh,aliases}; do
     source $rc_file
 done
 
+export EDITOR=vim
 # set vi mode for easier editing
 set -o vi
