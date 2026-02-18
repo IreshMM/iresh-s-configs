@@ -1,7 +1,7 @@
 # vim: ft=bash
 
-# Path to the working tree of this repository
-export CONFIG_REPO_PATH=$HOME/.config/iresh-s-configs
+# export the already set CONFIG_REPO_PATH
+export CONFIG_REPO_PATH
 
 # Source child rc files
 for rc_file in $CONFIG_REPO_PATH/shell/{variables,functions.sh,aliases}; do

@@ -1,1 +1,15 @@
-../shellrc
+# vim: ft=bash
+
+# Set configuration repository path
+CONFIG_REPO_PATH="${${(%):-%x}:A:h:h:h}"
+
+# ZSH specific config
+setopt INTERACTIVE_COMMENTS
+
+# Common shell config
+source $CONFIG_REPO_PATH/shell/shellrc
+
+# Mac specific config
+if [[ "$OSTYPE" == darwin* ]]; then
+  export PATH="/opt/homebrew/bin:$PATH"
+fi
